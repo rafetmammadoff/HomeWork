@@ -1,0 +1,201 @@
+body{
+    background: gray;
+}
+
+#table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container{display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 1300px;
+    
+}
+table{
+    width: 800px;
+    height: 250px;
+    text-align: center;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+table,tr,td,th{
+    border: 1px dashed gray;
+}
+th{
+    background:blueviolet;
+}
+.name{
+    background: purple;
+    font-weight: bold;
+}
+.surname{
+    background: skyblue;
+}
+.old{
+    background: yellow;
+}
+.film{
+    background: violet;
+}
+.music{
+    background: darkorchid;
+}
+
+    
+
+p{
+    font-size: 60px;
+    color: seagreen;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login{
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    border: 5px solid green;
+    border-radius: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+}
+.buttons{
+    width: 494px;
+    margin-top: 100px;
+    text-align: center;
+}
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login:active{
+    background-color: yellow;
+    color: red;
+    box-shadow: 0 5px white;
+    transform:translateY(4px)
+}
+#login-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-login{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(85, 99, 110);
+    margin-top: 50px;
+    text-align: center;
+}
+.email,.password{
+    color: black;
+    margin: 30px;
+
+}
+.mail,.mail-psw{
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    border: 10px;
+
+}
+.login-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    border: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.login-btn:active{
+    background-color: green;
+    box-shadow: 0 5px white;
+    transform: translateY(-4px);
+}
+.mail:active{
+    border:5px solid green;
+}
+.container-register{
+    width: 674px;
+    height: 650px;
+    background-color: white;
+    margin: 0;
+    display: flex;
+    
+    justify-content: center;
+    position: relative;
+}
+#register-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #666;
+}
+.container-reg{
+    width: 570px;
+}
+.reg-name{
+    font-size: 17PX;
+    font-weight:unset;
+    color: #666;
+    
+}
+.reg-name-zone{
+    width: 347px;
+    height: 30px;
+    margin-left: 12px;
+    margin-top: 10px;
+    border: 1px solid #d4d4d4;
+    margin-bottom: 20px;
+}
+.reg-name-zone:hover{}
+.reg-name-zone:focus {
+    
+    outline: none;
+    border: 1px solid #5dd600;
+  }
+
+
+    
+.design-zone{
+    width: 355px; 
+    height: 35px;
+    font-size: 16px;
+    color: #666;
+}
+.submit{
+    width: 171px;
+    height: 54px;
+    border: 5px;
+    border-radius: 50px;
+    background: #6ba53e;
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    right: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+    
+    
+}
+.submit:hover{
+   background-color: green;
+}
