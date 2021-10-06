@@ -166,7 +166,7 @@ h1{
     border: 1px solid #d4d4d4;
     margin-bottom: 20px;
 }
-.reg-name-zone:hover{}
+
 .reg-name-zone:focus {
     
     outline: none;
